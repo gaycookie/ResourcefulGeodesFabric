@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "geodes",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Resourceful Geodes (Fabric)",
+  "description": "",
   "authors": [
-    "Me!"
+    "GayCookie"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/gaycookie",
+    "sources": "https://github.com/gaycookie/ResourcefulGeodesFabric"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "WTFPL",
+  "icon": "assets/geodes/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "dev.gaycookie.geodes.ResourcefulGeodes"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "geodes.mixins.json"
   ],
 
   "depends": {
@@ -32,7 +32,5 @@
     "minecraft": "1.17.x",
     "java": ">=16"
   },
-  "suggests": {
-    "another-mod": "*"
-  }
+  "suggests": { }
 }
