@@ -6,10 +6,10 @@ Disclaimer; I'm not the best in keeping a log, so do not expect much.. I'm doing
 
 ## [Unreleased]
 ### Added
-- Translation(s): [Dutch](/bin/main/assets/geodes/lang/nl_nl.json)
+- Translation(s): [Dutch](src/main/resources/assets/geodes/lang/nl_nl.json)
 
 ### Changed
-- Translation(s): [English](bin/main/assets/geodes/lang/en_us.json)
+- Translation(s): [English](src/main/resources/assets/geodes/lang/en_us.json)
 
 ### Notes
 **I'm looking for people that can help me with these translations.  
