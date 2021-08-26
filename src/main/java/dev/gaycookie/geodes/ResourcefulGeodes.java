@@ -2,6 +2,8 @@ package dev.gaycookie.geodes;
 
 import dev.gaycookie.geodes.items.DeepslateGeode;
 import dev.gaycookie.geodes.items.StoneGeode;
+import me.shedaniel.autoconfig.AutoConfig;
+import me.shedaniel.autoconfig.serializer.JanksonConfigSerializer;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.loot.v1.FabricLootPoolBuilder;
 import net.fabricmc.fabric.api.loot.v1.event.LootTableLoadingCallback;
@@ -15,13 +17,19 @@ import net.minecraft.util.registry.Registry;
 
 public class ResourcefulGeodes implements ModInitializer {
   public static final String MODID = "geodes";
-  public static final GeodeTable GEODE_TABLE = new GeodeTable();
-
+  public static ConfigClass CONFIG;
+  public static GeodeLootTable GEODE_LOOT_TABLE;
+  
   public static Item STONE_GEODE = new StoneGeode();
   public static Item DEEPSLATE_GEODE = new DeepslateGeode();
 
   @Override
   public void onInitialize() {
+
+		AutoConfig.register(ConfigClass.class, JanksonConfigSerializer::new);
+		CONFIG = AutoConfig.getConfigHolder(ConfigClass.class).getConfig();
+    GEODE_LOOT_TABLE = new GeodeLootTable(ResourcefulGeodes.CONFIG.loot_table);
+
     this.registerItems();
     this.modifyLootTables();
 

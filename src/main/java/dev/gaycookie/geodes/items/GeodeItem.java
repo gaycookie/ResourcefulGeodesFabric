@@ -1,6 +1,6 @@
 package dev.gaycookie.geodes.items;
 
-import dev.gaycookie.geodes.GeodeTableEntry;
+import dev.gaycookie.geodes.GeodeLootTableEntry;
 import dev.gaycookie.geodes.ResourcefulGeodes;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
@@ -13,10 +13,10 @@ import net.minecraft.particle.ParticleTypes;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvents;
-import net.minecraft.text.Style;
 import net.minecraft.text.Text;
 import net.minecraft.text.TranslatableText;
 import net.minecraft.util.*;
+import net.minecraft.util.registry.Registry;
 import net.minecraft.world.World;
 
 import java.util.List;
@@ -52,10 +52,10 @@ public class GeodeItem extends Item {
       world.playSound(null, context.getBlockPos().getX() + .5, context.getBlockPos().getY() + 1.5, context.getBlockPos().getZ() + .5, SoundEvents.BLOCK_ANVIL_LAND, SoundCategory.AMBIENT, 0.75f, 2f);
       ((ServerWorld) world).spawnParticles(ParticleTypes.COMPOSTER, context.getBlockPos().getX() + .5, context.getBlockPos().getY() + 1, context.getBlockPos().getZ() + .5, 10, .2, .2, .2, 0.1);
 
-      GeodeTableEntry randomItem = ResourcefulGeodes.GEODE_TABLE.getRandomEntry();
+      GeodeLootTableEntry randomItem = ResourcefulGeodes.GEODE_LOOT_TABLE.getRandomEntry();
       if (randomItem != null) {
         ItemEntity item = new ItemEntity(EntityType.ITEM, world);
-        item.setStack(new ItemStack(randomItem.item, 1));
+        item.setStack(new ItemStack(Registry.ITEM.get(new Identifier(randomItem.item)), 1));
         item.setPosition(context.getBlockPos().getX() + .5, context.getBlockPos().getY() + 1, context.getBlockPos().getZ() + .5);
         world.spawnEntity(item);
       }
