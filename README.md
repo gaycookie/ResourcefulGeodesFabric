@@ -13,6 +13,7 @@ This is a highly experimental mod for [FabricMC].
 - [Minecraft Java] on at least version **1.17**.
 - [FabricMC] on at least version **0.7.4**.
 - [Fabric API] on at least version **0.37.2**.
+- [Cloth Config API] on at least version **5.0.38** (since [1.1.0](https://github.com/gaycookie/ResourcefulGeodesFabric/releases/tag/1.1.0))
 
 ## Changelog
 The changelog can be found [here](CHANGELOG.md).
@@ -38,3 +39,4 @@ The changelog can be found [here](CHANGELOG.md).
 [Minecraft Java]: https://www.minecraft.net/en-us/store/minecraft-java-edition
 [FabricMC]: https://fabricmc.net/
 [Fabric API]: https://www.curseforge.com/minecraft/mc-mods/fabric-api
+[Cloth Config API]: https://www.curseforge.com/minecraft/mc-mods/cloth-config
