@@ -1,4 +1,12 @@
-﻿# Resourceful Geodes
+﻿[![GitHub](https://img.shields.io/github/license/gaycookie/ResourcefulGeodesFabric?style=for-the-badge&color=orange)](LICENSE)
+ [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/gaycookie/ResourcefulGeodesFabric/build?style=for-the-badge)](https://github.com/gaycookie/ResourcefulGeodesFabric/actions/workflows/build.yml)
+ [![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/gaycookie/ResourcefulGeodesFabric?label=Latest%20Release&style=for-the-badge)](https://github.com/gaycookie/ResourcefulGeodesFabric/releases/latest)
+ [![GitHub all releases](https://img.shields.io/github/downloads/gaycookie/ResourcefulGeodesFabric/total?label=Total%20Downloads&style=for-the-badge)](https://github.com/gaycookie/ResourcefulGeodesFabric/releases/latest)
+[![Discord](https://img.shields.io/discord/817130660527079515?label=Discord&style=for-the-badge&logo=discord&logoColor=ffffff)](https://discord.gg/qUbJye86UN)
+<!--‎‎ [![CurseForge Downloads](http://cf.way2muchnoise.eu/full_453778_downloads.svg?badge_style=for_the_badge)](https://www.curseforge.com/minecraft/mc-mods/deaths-wish-fabric)
+‎‎ [![Available For](http://cf.way2muchnoise.eu/versions/453778.svg?badge_style=for_the_badge)](https://www.curseforge.com/minecraft/mc-mods/deaths-wish-fabric) -->
+
+# Resourceful Geodes
 This is a highly experimental mod for [FabricMC].
 
 ## Requirements
