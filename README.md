@@ -22,12 +22,14 @@ The changelog can be found [here](CHANGELOG.md).
 
 | Released | Updated   | Language     | Contributor(s)       | Version |
 | :------: | :-------: | ------------ | -------------------- | ------- |
-|   ✅    |     ✅    | [English]    | [GayCookie]          | v1.0.0  |
+|   ✅    |     ❌    | [English]    | [GayCookie]          | v1.0.0  |
+|   ❌    |     ❌    | [Dutch]      | [GayCookie]          |         |
 
 *More information on translation files can be found [here](https://fabricmc.net/wiki/tutorial:lang).*
 
 <!-- Language files -->
 [English]: src/main/resources/assets/geodes/lang/en_us.json
+[Dutch]: src/main/resources/assets/geodes/lang/nl_nl.json
 
 <!-- Contributors -->
 [GayCookie]: https://github.com/gaycookie
