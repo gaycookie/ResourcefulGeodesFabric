@@ -6,10 +6,14 @@ Disclaimer; I'm not the best in keeping a log, so do not expect much.. I'm doing
 
 ## [Unreleased]
 ### Added
-- Translation(s): [Dutch](src/main/resources/assets/geodes/lang/nl_nl.json)
+- Translation(s): [Dutch](src/main/resources/assets/geodes/lang/nl_nl.json).
+- `Netherrack Geode` and `End Stone Geode` items.
+- `Overworld`, `Nether` and `End` Loot tables.
+- `Nether` and `End` Loot tables been added to the config.
 
 ### Changed
-- Translation(s): [English](src/main/resources/assets/geodes/lang/en_us.json)
+- Translation(s): [English](src/main/resources/assets/geodes/lang/en_us.json).
+- Version of the config is now `0.0.2`.
 
 ### Notes
 **I'm looking for people that can help me with these translations.  

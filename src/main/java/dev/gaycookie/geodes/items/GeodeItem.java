@@ -52,7 +52,17 @@ public class GeodeItem extends Item {
       world.playSound(null, context.getBlockPos().getX() + .5, context.getBlockPos().getY() + 1.5, context.getBlockPos().getZ() + .5, SoundEvents.BLOCK_ANVIL_LAND, SoundCategory.AMBIENT, 0.75f, 2f);
       ((ServerWorld) world).spawnParticles(ParticleTypes.COMPOSTER, context.getBlockPos().getX() + .5, context.getBlockPos().getY() + 1, context.getBlockPos().getZ() + .5, 10, .2, .2, .2, 0.1);
 
-      GeodeLootTableEntry randomItem = ResourcefulGeodes.GEODE_LOOT_TABLE.getRandomEntry();
+      GeodeLootTableEntry randomItem;
+      if (this.asItem() == ResourcefulGeodes.DEEPSLATE_GEODE) {
+        randomItem = ResourcefulGeodes.GEODE_LOOT_TABLE.getRandomOverworldEntry();
+      } else if (this.asItem() == ResourcefulGeodes.NETHERRACK_GEODE) {
+        randomItem = ResourcefulGeodes.GEODE_LOOT_TABLE.getRandomNetherEntry();
+      } else if (this.asItem() == ResourcefulGeodes.END_STONE_GEODE) {
+        randomItem = ResourcefulGeodes.GEODE_LOOT_TABLE.getRandomEndEntry();
+      } else {
+        randomItem = ResourcefulGeodes.GEODE_LOOT_TABLE.getRandomOverworldEntry();
+      }
+
       if (randomItem != null) {
         ItemEntity item = new ItemEntity(EntityType.ITEM, world);
         item.setStack(new ItemStack(Registry.ITEM.get(new Identifier(randomItem.item)), 1));

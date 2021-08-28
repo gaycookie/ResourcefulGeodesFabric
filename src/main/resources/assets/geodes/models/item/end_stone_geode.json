@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "geodes:item/end_stone_geode"
+  }
+}

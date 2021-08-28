@@ -1,5 +1,7 @@
 {
   "item.geodes.deepslate_geode": "Deepslate Geode",
   "item.geodes.stone_geode": "Stone Geode",
+  "item.geodes.netherrack_geode": "Netherrack Geode",
+  "item.geodes.end_stone_geode": "End Stone Geode",
   "item.geodes.geode.lore": "What will you find inside?"
 }
