@@ -24,8 +24,8 @@ The changelog can be found [here](CHANGELOG.md).
 
 | Released | Updated   | Language     | Contributor(s)       | Version |
 | :------: | :-------: | ------------ | -------------------- | ------- |
-|   ✅    |     ❌    | [English]    | [GayCookie]          | v1.0.0  |
-|   ❌    |     ❌    | [Dutch]      | [GayCookie]          |         |
+|   ✅    |     ✅    | [English]    | [GayCookie]          | v1.0.0  |
+|   ❌    |     ✅    | [Dutch]      | [GayCookie]          |         |
 
 *More information on translation files can be found [here](https://fabricmc.net/wiki/tutorial:lang).*
 
