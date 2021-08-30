@@ -4,11 +4,15 @@
  [![GitHub all releases](https://img.shields.io/github/downloads/gaycookie/ResourcefulGeodesFabric/total?label=Total%20Downloads&style=for-the-badge)](https://github.com/gaycookie/ResourcefulGeodesFabric/releases/latest)
  [![Discord](https://img.shields.io/discord/817130660527079515?label=Discord&style=for-the-badge&logo=discord&logoColor=ffffff)](https://discord.gg/qUbJye86UN)
  [![Documentation](https://img.shields.io/badge/Documentation-GitHub-orange?style=for-the-badge)](https://github.com/gaycookie/ResourcefulGeodesFabric/wiki)
-<!--‎‎ [![CurseForge Downloads](http://cf.way2muchnoise.eu/full_453778_downloads.svg?badge_style=for_the_badge)](https://www.curseforge.com/minecraft/mc-mods/deaths-wish-fabric)
-‎‎ [![Available For](http://cf.way2muchnoise.eu/versions/453778.svg?badge_style=for_the_badge)](https://www.curseforge.com/minecraft/mc-mods/deaths-wish-fabric) -->
+ [![CurseForge Downloads](http://cf.way2muchnoise.eu/full_520994_downloads.svg?badge_style=for_the_badge)](https://www.curseforge.com/minecraft/mc-mods/resourceful-geodes-fabric)
+‎‎ [![Available For](http://cf.way2muchnoise.eu/versions/520994.svg?badge_style=for_the_badge)](https://www.curseforge.com/minecraft/mc-mods/resourceful-geodes-fabric)
 
 # Resourceful Geodes
 This is a highly experimental mod for [FabricMC].
+
+# About
+This mod adds geodes to the game that drop from Stone and Deepslate.
+When breaking them against an Anvil, you have a chance to gain random loot such as raw Iron or Diamonds.
 
 ## Requirements
 - [Minecraft Java] on at least version **1.17**.
